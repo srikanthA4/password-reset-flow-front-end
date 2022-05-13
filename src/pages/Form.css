@@ -1,0 +1,101 @@
+h2 {
+    font-family: inherit;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-family: inherit;
+    padding: 1rem;
+    width: 100%;
+}
+
+label {
+    margin-top: .75rem;
+    margin-bottom: .25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: var(--spacing);
+}
+
+input {
+    padding: .75rem;
+    letter-spacing: 2px;
+    border: 1px solid #a8a8b2;
+    background-color: rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: rgba(39, 245, 161, 0.86);
+    padding: .5rem .5rem;
+    margin-top: 1.2rem;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+.btn:active {
+    transform: scale(.9);
+}
+
+.login-action {
+    margin-top: .5rem;
+    color: var(--clr-grey-1);
+}
+
+.login-action p {
+    font-size: .91rem;
+    margin-top: .2rem;
+    font-weight: 600;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+}
+
+.error-msg {
+    color: red;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.success-msg {
+    color: green;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media(min-width: 768px) {
+    .form {
+        max-width: 600px;
+    }
+    .login-action {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        margin-top: .5rem;
+        color: var(--clr-grey-1);
+    }
+}
