@@ -26,7 +26,7 @@ const Login = () => {
 
   return (
     <>
-      <h2>Hey, Welcome back!!</h2>
+      <h2>Hello Developers!</h2>
       <Formik
         initialValues={initialState}
         validationSchema={Yup.object({
