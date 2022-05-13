@@ -49,7 +49,7 @@ const Login = () => {
       >
         <Form className="form login-form">
           <MyTextInput
-            label="Email address"
+            label="Email Address"
             name="email"
             type="email"
             placeholder="Please enter the Email"
